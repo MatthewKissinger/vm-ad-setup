@@ -29,6 +29,41 @@ Once both Virtual Machines are up and running we will ensure that they are conne
   
 <h2>Create the Domain Controller Virtual Machine</h2>
 
+<p>1) From the Microsoft Azure Homepage click on the Virtual Machines Icon [See Below]</p>
+
+![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/baddce6d-515a-45d2-88ee-490466fd3a6a)
+
+<p>2) Now that you're in the Virtual Machines Section Click on the Create Button [See Below]</p>
+
+![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/d50995ee-a7e0-4ed7-8959-f6012e3599da)
+
+<p> And select Azure Virtual Machine</p>
+
+![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/3ec70234-22ae-4da4-99ca-5f9ce4c595f4)
+
+<p>3) Have the Resource Group auto-created by the form</p>
+
+![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/04eec0c7-329a-491a-a110-0338cf9f84da)
+
+<p>4) Name the virtual machine DC-1 (for Domain Controller 1) and select a region near you (ex: US West 2)</p>
+
+<p>For Image select Windows Server 2022</p>
+
+![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/769f35b8-fdbf-461e-ac89-e1a74a714826)
+
+<p>For Size, select at least 2vcpu. Going over this may be costly, especially if you are using the free $200 credits for learning purposes. Example below: ** You may need to look at all sizes and filter and then go back to the creation screen if using a free account **</p>
+
+![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/622c818e-1b21-412a-bce4-4abe57dc379e)
+
+<p>5) Set up a username and password and WRITE THIS INFO DOWN!  It will be needed to access the virtual machine via Remote Desktop Connection in the next Tutorial. </p>
+
+<p>Also, write down the Resource Group and Vnet (Virtual Network) that were created for DC-1 </p>
+
+
+
+
+
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
