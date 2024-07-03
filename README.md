@@ -10,15 +10,11 @@ Once both Virtual Machines are up and running we will ensure that they are conne
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Computer)
-- ICMPv4
-- Remote Desktop Connection
-- Internet Information Services (IIS)
+- Microsoft Azure (Virtual Machines/Computer) online portal
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10
-- Windows Server 2022
+- Windows 10 / 11
 
 <h2>List of Prerequisites</h2>
 
