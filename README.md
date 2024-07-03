@@ -20,8 +20,6 @@ Once both Virtual Machines are up and running we will ensure that they are conne
 
 - Microsoft Azure Account (Free version of $200 credits available)
 - Personal Computer running Windows 10 or 11
-- Basic understanding of ping command
-- Basic understanding of Windows File Explorer
 
 <h2>What is a Domain Controller?</h2>
 
