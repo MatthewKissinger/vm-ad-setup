@@ -59,6 +59,50 @@ Once both Virtual Machines are up and running we will ensure that they are conne
 
 <p>Also, write down the Resource Group and Vnet (Virtual Network) that were created for DC-1 </p>
 
+<p>5) Set the Domain Controller's NIC (Network Interface Card) Private IP Address to static</p>
+
+<p>Navigate to the Virtual Machines page by clicing on the VM icon again. </p>
+
+<p>From here click on DC-1 </p>
+
+![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/d5e72456-2784-4d92-aa4e-1752a4427029)
+
+<p>then, Network Settings under the Networking dropdown menu</p>
+
+![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/0354a965-06c6-43a3-b055-44ba4c1aafe2)
+
+<p>then, click on the Network interface / IP configuraion card (your NIC name may be different)</p>
+
+![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/69e1abf8-b2a1-4ca7-966d-7f8f4e5beb59)
+
+<p>In Ip configurations</p>
+
+![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/803936c3-52c3-4508-8708-dd48f60a8757)
+
+<p>click on the name ipconfig 1</p>
+
+![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/d4f063b8-dc3a-4796-a245-ea82a7b81a8d)
+
+<p>Change the Private IP address settings Allocation from Dynamic to Static</p>
+
+![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/fe50b8d3-d3f2-43d5-8fcf-b274813a1404)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
