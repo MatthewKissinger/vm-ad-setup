@@ -33,13 +33,13 @@ Once both Virtual Machines are up and running we will ensure that they are conne
 <p>Its job is to handle authentication requests across the domain (network of computers). </p>
 <p>You can have several Domain Controllers in a network, but there is always only one Main Domain Controller, and the primary reason for multiple Domain Controllers is to replicate important data.</p>
   
-<h2>Create the Domain Controller Virtual Machine</h2>
+<h3> 1) Create the Domain Controller Virtual Machine</h3>
 
-<p>1) From the Microsoft Azure Homepage click on the Virtual Machines Icon [See Below]</p>
+<p>From the Microsoft Azure Homepage click on the Virtual Machines Icon [See Below]</p>
 
 ![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/baddce6d-515a-45d2-88ee-490466fd3a6a)
 
-<p>2) Now that you're in the Virtual Machines Section Click on the Create Button [See Below]</p>
+<p>Now that you're in the Virtual Machines Section Click on the Create Button [See Below]</p>
 
 ![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/d50995ee-a7e0-4ed7-8959-f6012e3599da)
 
@@ -47,11 +47,11 @@ Once both Virtual Machines are up and running we will ensure that they are conne
 
 ![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/3ec70234-22ae-4da4-99ca-5f9ce4c595f4)
 
-<p>3) Have the Resource Group auto-created by the form</p>
+<p>Have the Resource Group auto-created by the form</p>
 
 ![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/04eec0c7-329a-491a-a110-0338cf9f84da)
 
-<p>4) Name the virtual machine DC-1 (for Domain Controller 1) and select a region near you (ex: US West 2)</p>
+<p>Name the virtual machine DC-1 (for Domain Controller 1) and select a region near you (ex: US West 2)</p>
 
 <p>For Image select Windows Server 2022</p>
 
@@ -61,11 +61,11 @@ Once both Virtual Machines are up and running we will ensure that they are conne
 
 ![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/622c818e-1b21-412a-bce4-4abe57dc379e)
 
-<p>5) Set up a username and password and WRITE THIS INFO DOWN!  It will be needed to access the virtual machine via Remote Desktop Connection in the next Tutorial. </p>
+<p>Set up a username and password and WRITE THIS INFO DOWN!  It will be needed to access the virtual machine via Remote Desktop Connection in the next Tutorial. </p>
 
 <p>Also, write down the Resource Group and Vnet (Virtual Network) that were created for DC-1 </p>
 
-<p>5) Set the Domain Controller's NIC (Network Interface Card) Private IP Address to static.</p>  
+<h3>2) Set the Domain Controller's NIC (Network Interface Card) Private IP Address to static.</h3>  
 
 <p>A Domain Contoller's IP address should be static because of reliability.  If it always has the same Private IP Address, its client computers will never have an issue connecting to it via the network.</p>
 
