@@ -26,6 +26,12 @@ Once both Virtual Machines are up and running we will ensure that they are conne
 - Personal Computer running Windows 10 or 11
 - Basic understanding of ping command
 - Basic understanding of Windows File Explorer
+
+<h2>What is a Domain Controller?</h2>
+
+<p>A Windows Domain Controller is essentially any server that has Active Directory Domain Services installed.</p>
+<p>Its job is to handle authentication requests across the domain (network of computers). </p>
+<p>You can have several Domain Controllers in a network, but there is always only one Main Domain Controller, and the primary reason for multiple Domain Controllers is to replicate important data.</p>
   
 <h2>Create the Domain Controller Virtual Machine</h2>
 
@@ -59,7 +65,9 @@ Once both Virtual Machines are up and running we will ensure that they are conne
 
 <p>Also, write down the Resource Group and Vnet (Virtual Network) that were created for DC-1 </p>
 
-<p>5) Set the Domain Controller's NIC (Network Interface Card) Private IP Address to static</p>
+<p>5) Set the Domain Controller's NIC (Network Interface Card) Private IP Address to static.</p>  
+
+<p>A Domain Contoller's IP address should be static because of reliability.  If it always has the same Private IP Address, its client computers will never have an issue connecting to it via the network.</p>
 
 <p>Navigate to the Virtual Machines page by clicing on the VM icon again. </p>
 
