@@ -59,7 +59,7 @@ Once both Virtual Machines are up and running we will ensure that they are conne
 
 <p>Also, write down the Resource Group and Vnet (Virtual Network) that were created for DC-1 </p>
 
-<h3>2) Set the Domain Controller's NIC (Network Interface Card) Private IP Address to static.</h3>  
+<h3> 2) Set the Domain Controller's NIC (Network Interface Card) Private IP Address to static.</h3>  
 
 <p>A Domain Contoller's IP address should be static because of reliability.  If it always has the same Private IP Address, its client computers will never have an issue connecting to it via the network.</p>
 
@@ -89,6 +89,25 @@ Once both Virtual Machines are up and running we will ensure that they are conne
 
 ![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/fe50b8d3-d3f2-43d5-8fcf-b274813a1404)
 
+<h3> 3) Create Client-1 Virtual Machine</h3>
+
+<p> Repeat Step 1) with the following things to keep in mind: </p>
+
+<p>Name the virtual machine "Client-1"</p>
+
+<p>Make sure the Resource Group is the same Resource Group that was created for DC-1</p>
+
+<p>Make sure the Location is the same as DC-1</p>
+
+<p>Make sure the Vnet is the same as DC-1</p>
+
+<p>On the Virtual Machine screen in the portal you can access this information.</p>
+
+![image](https://github.com/MatthewKissinger/vm-ad-setup/assets/48774883/13f56eb2-e882-48b0-a636-8f53c990b543)
+
+<h3>Thank you for following along!</h3>
+  
+<p>In the next tutorial we will be connecting to the virtual machines created here via Remote Desktop Connection.</p>
 
 
 
@@ -110,26 +129,7 @@ Once both Virtual Machines are up and running we will ensure that they are conne
 
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+
