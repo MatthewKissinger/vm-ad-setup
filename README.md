@@ -6,7 +6,7 @@
 <h2>Creating a Domain Controller and Client Virtual Machines for Active Directory Deployment</h2>
 <p>This tutorial outlines the prerequisites and the creation of a Domain Controller and Client Virtual Machines in the cloud computing platform Microsoft Azure.</p> 
 <p>We will first create a Domain Controller VM (named DC-1) with the windows server OS, then create a Client VM (named Client-1).</p>  
-Once both Virtual Machines are up and running we will ensure that they are connected via ICMPv4. <br />
+
 
 <h2>Environments and Technologies Used</h2>
 
